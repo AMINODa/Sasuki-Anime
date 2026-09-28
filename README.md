@@ -1,12 +1,12 @@
 <div align="center">
 
-# Sasuki Anime
+<img src="https://github.com/user-attachments/assets/00000000-0000-0000-0000-000000000000" alt="logo" width="1" height="1" style="display:none;" />
 
-ننسخة معدّلة من **Shizuku** — تطبيق أندرويد يسمح للتطبيقات الأخرى باستخدام صلاحيات النظام (ADB/Root) مباشرة.
+# 🎴 Sasuki Anime
 
-A custom rebranded build of **Shizuku** — an Android app that lets other apps use system-level APIs directly with ADB/root privileges.
+تطبيق أندرويد يسمح للتطبيقات الأخرى باستخدام صلاحيات النظام (ADB/Root) مباشرة — بواجهة جديدة واسم جديد ولوجو عين أنمي حمراء.
 
-**الاسم الجديد:** Sasuki Anime &nbsp;|&nbsp; **اللوجو:** عين أنمي حمراء 🎴
+An Android app that lets other apps use system-level APIs directly with ADB/root privileges — fully rebranded with a new name and a red anime eye logo.
 
 </div>
 
@@ -22,24 +22,17 @@ Go to the **[Releases](../../releases)** page and download the latest APK — si
 
 ## 🚀 طريقة الاستخدام | Quick Start
 
-1. شغّل التطبيق واتبع التعليمات لبدء الخدمة عبر **Wireless debugging** أو **Root**
-2. للتطبيقات التي تدعم Shizuku: فعّلها من إعدادات التطبيق نفسه
+1. شغّل التطبيق واتبع التعليمات لبدء الخدمة عبر **Wireless debugging** (بدون PC في Android 11+) أو **Root**
+2. للتطبيقات الداعمة لهذه الخدمة: فعّل الوصول من إعدادات التطبيق نفسه
 
-Start the service via **Wireless debugging** (no PC needed on Android 11+) or **Root**, then grant Shizuku access to supported apps.
+Start the service via **Wireless debugging** or **Root**, then grant access to supported apps.
 
 ## ℹ️ ملاحظات | Notes
 
-- اسم الحزمة الأصلي محفوظ: `moe.shizuku.privileged.api`
-- يعمل مع التطبيقات الداعمة لـ Shizuku API بشكل كامل
-- التطبيق مبني من الكود المصدري لنسخة `thedjchi/Shizuku` (إيقاف الصيانة من مؤلفها)
+- يدعم جميع المعالجات: `arm64-v8a` / `armeabi-v7a` / `x86` / `x86_64`
+- الواجهة كاملة بالعربية والإنجليزية وباقي اللغات
+- الأوامر التقنية في الطرفية تحتفظ بالاسم الداخلي الأصلي لضمان التوافق الكامل مع التطبيقات الداعمة
 
-The original package name is preserved, so it behaves exactly like upstream Shizuku. Built from the source of `thedjchi/Shizuku`.
+## 🙏 الاعتماد والرخصة | Credits & License
 
-## 🙏 الشكر والاعتماد | Credits & License
-
-هذا المشروع نسخة معاد تسميتها من المشروع المفتوح المصدر:
-
-- **[RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku)** — المشروع الأصلي بمؤلفه Rikka
-- **[thedjchi/Shizuku](https://github.com/thedjchi/Shizuku)** — الفورك الذي بُنيت عليه هذه النسخة
-
-Licensed under the **[Apache License 2.0](LICENSE)** — same as upstream Shizuku. All credit for the original work goes to the original authors.
+هذا التطبيق مبني على المشروع المفتوح المصدر [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) (وفورك [thedjchi/Shizuku](https://github.com/thedjchi/Shizuku)) المرخص تحت **[Apache License 2.0](LICENSE)** — كل الفضل لمؤلفي المشروع الأصلي.
