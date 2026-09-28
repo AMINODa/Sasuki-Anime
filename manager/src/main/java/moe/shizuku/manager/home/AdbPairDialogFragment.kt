@@ -181,7 +181,7 @@ class ViewModel(application: Application) : AndroidViewModel(application) {
             val host = resolvedHost
 
             val key = try {
-                AdbKey(PreferenceAdbKeyStore(ShizukuSettings.getPreferences()), "shizuku")
+                AdbKey(PreferenceAdbKeyStore(ShizukuSettings.getPreferences()), "sasuki-anime")
             } catch (e: Throwable) {
                 e.printStackTrace()
                 _result.postValue(AdbKeyException(e))
