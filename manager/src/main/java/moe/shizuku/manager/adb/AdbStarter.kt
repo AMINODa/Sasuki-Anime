@@ -32,7 +32,7 @@ object AdbStarter {
             log?.invoke("Starting with wireless adb...\n")
         
             withContext(Dispatchers.IO) {
-                val key = runCatching { AdbKey(PreferenceAdbKeyStore(ShizukuSettings.getPreferences()), "shizuku") }
+                val key = runCatching { AdbKey(PreferenceAdbKeyStore(ShizukuSettings.getPreferences()), "sasuki-anime") }
                     .getOrElse {
                         if (it is CancellationException) throw it
                         else throw AdbKeyException(it)
@@ -83,7 +83,7 @@ object AdbStarter {
             if (adbEnabled == 0) throw IllegalStateException("ADB is not enabled")
 
             ShizukuStateMachine.set(ShizukuStateMachine.State.STOPPING)
-            val key = AdbKey(PreferenceAdbKeyStore(ShizukuSettings.getPreferences()), "shizuku")
+            val key = AdbKey(PreferenceAdbKeyStore(ShizukuSettings.getPreferences()), "sasuki-anime")
             withContext(Dispatchers.IO) {
                 AdbClient("127.0.0.1", port, key).use { client ->
                     connectWithRetry(client)
